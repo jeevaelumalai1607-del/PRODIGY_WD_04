@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+}
+
+header{
+    background:#0077b6;
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+header h1{
+    font-size:40px;
+}
+
+header p{
+    margin-top:10px;
+    font-size:18px;
+}
+
+nav{
+    background:#023e8a;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+section{
+    width:80%;
+    margin:30px auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+h2{
+    color:#0077b6;
+    margin-bottom:15px;
+}
+
+ul{
+    margin-left:20px;
+}
+
+.project{
+    background:#eaf4ff;
+    padding:15px;
+    margin-top:15px;
+    border-left:5px solid #0077b6;
+    border-radius:5px;
+}
+
+footer{
+    background:#023e8a;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+@media(max-width:768px){
+
+nav a{
+display:block;
+margin:10px;
+}
+
+section{
+width:95%;
+}
+
+header h1{
+font-size:30px;
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Jeeva Elumalai</h1>
+
+<p>Aspiring Software Developer | Web Developer</p>
+
+</header>
+
+<nav>
+
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+Hello! I am Jeeva Elumalai, a Computer Science student with an interest in
+Web Development and Programming. I enjoy learning new technologies and
+building simple, responsive websites.
+</p>
+
+</section>
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<ul>
+<li>HTML5</li>
+<li>CSS3</li>
+<li>JavaScript</li>
+<li>C Programming</li>
+<li>C++</li>
+<li>Git & GitHub</li>
+</ul>
+
+</section>
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="project">
+<h3>⏱ Stopwatch Web Application</h3>
+<p>A stopwatch with Start, Stop, Reset and Lap features built using HTML, CSS and JavaScript.</p>
+</div>
+
+<div class="project">
+<h3>🌐 Responsive Landing Page</h3>
+<p>A responsive landing page with navigation, hero section, services and contact information.</p>
+</div>
+
+<div class="project">
+<h3>👨‍💻 Personal Portfolio Website</h3>
+<p>A portfolio website showcasing my skills, projects and contact details.</p>
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Me</h2>
+
+<p><strong>Email:</strong> jeevaelumalai1607@gmail.com</p>
+
+<p><strong>Phone:</strong> +91 XXXXXXXXXX</p>
+
+<p><strong>LinkedIn:</strong> https://www.linkedin.com/in/your-profile</p>
+
+<p><strong>GitHub:</strong> https://github.com/your-username</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Jeeva Elumalai | All Rights Reserved</p>
+
+</footer>
+
+</body>
+</html>
